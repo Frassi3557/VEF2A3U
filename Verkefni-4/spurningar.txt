@@ -1,0 +1,9 @@
+1.  PDO er OOP.
+
+2.  Færslubreyturnar eru upphafsstillingar til að búa til nýja tengingu við SQL server.
+
+3.  
+
+4.
+
+5.  
