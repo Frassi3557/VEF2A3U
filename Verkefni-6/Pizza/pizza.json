@@ -1,8 +1,8 @@
 {"pizzaPontun":[
   {
     "crustType":"original",
-    "toppings":"cheese, pepperoni, garlic",
+    "toppings": ["cheese, pepperoni, garlic"],
     "status":"cooking",
-    "customer":"Picasso, +3545812345"
+    "customer": ["Picasso, +3545812345"]
   }
 ]}
