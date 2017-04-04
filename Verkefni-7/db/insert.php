@@ -41,6 +41,9 @@ if(!empty($name) && !empty($passw) && !empty($email))
 	catch (PDOException $ex){
 		echo 'Það tókst ekki að skrifa í gagnagrunn: '.$ex->getMessage();
 	}
-
+  header('Location: ../index.php');
+}
+else {
+  header('Location: ../register.php');
 }
 ?>

@@ -19,14 +19,6 @@
         $statement->bindValue(':email', $email);
         $inserted = $statement->execute();	
       
-        if($inserted){
-    echo 'Row inserted!<br>';
-}
-	} catch (Exception $e) {
-		echo "Ekki tókst að skrá gögnin". "<br>" . $e->getMessage();
-	}
-    header("Refresh: 2; URL=../Verkefni7/");
+    }
+    header('Location: index.php');
   }
-else{
-    header "../Verkefni7/";
-}
